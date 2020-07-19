@@ -29,10 +29,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWj-1U-W48">
-                                <rect key="frame" x="129.5" y="562.5" width="155" height="155"/>
+                                <rect key="frame" x="175" y="562.5" width="64" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="155" id="1uy-Rx-qbR"/>
-                                    <constraint firstAttribute="width" constant="155" id="Abc-Bg-ImX"/>
+                                    <constraint firstAttribute="height" constant="64" id="1uy-Rx-qbR"/>
+                                    <constraint firstAttribute="width" constant="64" id="Abc-Bg-ImX"/>
                                 </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
