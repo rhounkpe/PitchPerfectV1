@@ -165,7 +165,7 @@
                     <connections>
                         <outlet property="chipmunkButton" destination="iEH-un-Tl6" id="4Pu-x5-Ss2"/>
                         <outlet property="echoButton" destination="nUH-gd-kaI" id="WlV-1D-1an"/>
-                        <outlet property="rabitButton" destination="ClE-5m-K3m" id="G8j-pp-APj"/>
+                        <outlet property="rabbitButton" destination="ClE-5m-K3m" id="G8j-pp-APj"/>
                         <outlet property="reverbButton" destination="Uk1-xs-Qra" id="tEM-Ph-6bA"/>
                         <outlet property="snailButton" destination="UcR-to-oTw" id="XlD-5x-D1H"/>
                         <outlet property="stopButton" destination="WHw-Xi-yD3" id="yRa-KH-zZ5"/>

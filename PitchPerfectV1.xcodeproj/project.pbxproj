@@ -14,6 +14,7 @@
 		538748E724C441DE00BCE598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538748E624C441DE00BCE598 /* Assets.xcassets */; };
 		538748EA24C441DE00BCE598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538748E824C441DE00BCE598 /* LaunchScreen.storyboard */; };
 		5390A13124D2EFC200C87656 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390A13024D2EFC200C87656 /* PlaySoundsViewController.swift */; };
+		5390A13524D31EF500C87656 /* Playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390A13424D31EF500C87656 /* Playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		538748E924C441DE00BCE598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538748EB24C441DE00BCE598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5390A13024D2EFC200C87656 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		5390A13424D31EF500C87656 /* Playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		538748DC24C441DC00BCE598 /* PitchPerfectV1 */ = {
 			isa = PBXGroup;
 			children = (
+				5390A13424D31EF500C87656 /* Playsoundsviewcontroller-audio.swift */,
 				538748E624C441DE00BCE598 /* Assets.xcassets */,
 				538748DD24C441DC00BCE598 /* AppDelegate.swift */,
 				538748DF24C441DC00BCE598 /* SceneDelegate.swift */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				538748E224C441DC00BCE598 /* RecordSoundsViewController.swift in Sources */,
+				5390A13524D31EF500C87656 /* Playsoundsviewcontroller-audio.swift in Sources */,
 				538748DE24C441DC00BCE598 /* AppDelegate.swift in Sources */,
 				5390A13124D2EFC200C87656 /* PlaySoundsViewController.swift in Sources */,
 				538748E024C441DC00BCE598 /* SceneDelegate.swift in Sources */,
