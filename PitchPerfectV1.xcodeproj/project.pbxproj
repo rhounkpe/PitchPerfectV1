@@ -56,11 +56,11 @@
 		538748DC24C441DC00BCE598 /* PitchPerfectV1 */ = {
 			isa = PBXGroup;
 			children = (
+				538748E624C441DE00BCE598 /* Assets.xcassets */,
 				538748DD24C441DC00BCE598 /* AppDelegate.swift */,
 				538748DF24C441DC00BCE598 /* SceneDelegate.swift */,
 				538748E124C441DC00BCE598 /* RecordSoundsViewController.swift */,
 				538748E324C441DC00BCE598 /* Main.storyboard */,
-				538748E624C441DE00BCE598 /* Assets.xcassets */,
 				538748E824C441DE00BCE598 /* LaunchScreen.storyboard */,
 				538748EB24C441DE00BCE598 /* Info.plist */,
 			);
