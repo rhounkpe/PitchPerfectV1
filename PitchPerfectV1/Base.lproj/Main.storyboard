@@ -70,7 +70,18 @@
                     <view key="view" contentMode="scaleToFill" id="b9G-aK-9ts">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.49402803631510184" green="0.98687187933802789" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BLe-s2-ZRY">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nvv-t5-qf9" firstAttribute="bottom" secondItem="BLe-s2-ZRY" secondAttribute="bottom" id="BAG-ul-BfU"/>
+                            <constraint firstItem="BLe-s2-ZRY" firstAttribute="top" secondItem="nvv-t5-qf9" secondAttribute="top" id="Y0q-hD-UjS"/>
+                            <constraint firstItem="BLe-s2-ZRY" firstAttribute="leading" secondItem="nvv-t5-qf9" secondAttribute="leading" id="iXy-hj-ZEH"/>
+                            <constraint firstItem="nvv-t5-qf9" firstAttribute="trailing" secondItem="BLe-s2-ZRY" secondAttribute="trailing" id="stw-m1-eIg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nvv-t5-qf9"/>
                     </view>
                     <navigationItem key="navigationItem" id="oNE-VX-DEL"/>
