@@ -115,13 +115,28 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zEO-NI-gfY">
+                                <rect key="frame" x="175" y="790" width="64" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHw-Xi-yD3" userLabel="Stop Button">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="Zyh-c8-Q2A"/>
+                                            <constraint firstAttribute="height" constant="64" id="jbz-C1-fum"/>
+                                        </constraints>
+                                        <state key="normal" image="Stop"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nvv-t5-qf9" firstAttribute="bottom" secondItem="BLe-s2-ZRY" secondAttribute="bottom" id="BAG-ul-BfU"/>
                             <constraint firstItem="BLe-s2-ZRY" firstAttribute="top" secondItem="nvv-t5-qf9" secondAttribute="top" id="Y0q-hD-UjS"/>
                             <constraint firstItem="BLe-s2-ZRY" firstAttribute="leading" secondItem="nvv-t5-qf9" secondAttribute="leading" id="iXy-hj-ZEH"/>
+                            <constraint firstItem="nvv-t5-qf9" firstAttribute="bottom" secondItem="zEO-NI-gfY" secondAttribute="bottom" constant="8" id="lDA-FO-vgA"/>
                             <constraint firstItem="nvv-t5-qf9" firstAttribute="trailing" secondItem="BLe-s2-ZRY" secondAttribute="trailing" id="stw-m1-eIg"/>
+                            <constraint firstItem="zEO-NI-gfY" firstAttribute="centerX" secondItem="nvv-t5-qf9" secondAttribute="centerX" id="tgC-Zg-9tg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nvv-t5-qf9"/>
                     </view>
@@ -129,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uE8-dA-wc0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780" y="131"/>
+            <point key="canvasLocation" x="1779.7101449275365" y="130.58035714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jwm-DQ-RaH">
